@@ -1,0 +1,27 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Optimistic Bookstore UI</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Optimistic Bookstore UI</h1>
+    <form id="bookForm">
+      <input type="text" name="title" placeholder="Title" required>
+      <input type="text" name="author" placeholder="Author" required>
+      <input type="number" name="publicationYear" placeholder="Publication Year" required>
+      <input type="text" name="genre" placeholder="Genre" required>
+      <button type="submit">Add Book (optimistic)</button>
+    </form>
+
+    <h2>Books</h2>
+    <ul id="books"></ul>
+    <div id="toast" style="display:none;color:#b00020;margin-top:12px"></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+body{font-family:system-ui,Arial;margin:20px;background:#fffefc}
+.container{max-width:800px;margin:0 auto;background:#fff;padding:16px;border-radius:6px;border:1px solid #eee}
+form input{margin:6px 6px 6px 0;padding:8px}
+button{padding:8px 12px}
+#books{list-style:none;padding:0}
+#books li{padding:8px;border-bottom:1px solid #f3f3f3;display:flex;justify-content:space-between}
+.toast{color:#b00020}

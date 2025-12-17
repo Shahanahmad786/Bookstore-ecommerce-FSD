@@ -1,0 +1,17 @@
+:root{--bg:#f6f8fa;--card:#fff;--muted:#6b7280;--accent:#2563eb}
+body{font-family:Inter,system-ui,Arial;margin:16px;background:var(--bg);color:#111}
+.container{max-width:900px;margin:20px auto;padding:18px;background:var(--card);border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,.06)}
+header h1{margin:0}
+.muted{color:var(--muted);margin:6px 0}
+.form-section{margin:18px 0 8px}
+.row{display:flex;gap:8px;margin-bottom:8px}
+.row input{flex:1;padding:10px;border:1px solid #e5e7eb;border-radius:6px}
+button{background:var(--accent);color:#fff;border:none;padding:10px 12px;border-radius:6px;cursor:pointer}
+button.secondary{background:#e5e7eb;color:#111}
+.book-list{list-style:none;padding:0;margin:0}
+.book-list li{display:flex;justify-content:space-between;align-items:center;padding:12px;border-bottom:1px solid #f1f5f9}
+.book-meta{max-width:76%}
+.book-actions button{margin-left:8px;padding:6px 8px;border-radius:6px;border:1px solid #e5e7eb;background:#fff;cursor:pointer}
+.message{min-height:24px;margin-bottom:8px;color:#064e3b}
+.small{font-size:13px;color:var(--muted)}
+*** End Patch
